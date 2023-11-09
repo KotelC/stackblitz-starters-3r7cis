@@ -1,0 +1,61 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.lista-zakupow {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  width: 100%;
+}
+
+li {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  cursor: pointer;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+input[type='text'] {
+  width: 200px;
+}
